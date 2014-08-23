@@ -83,7 +83,7 @@ var home = {
           }
         }
         if (monthCount(myDate) === 1){
-          $(".listCreate").prepend("<h2>One More Month, You Should:</h2>");
+          $(".listCreate").prepend("<h2>One more month, you should:</h2>");
           for (var i = 0; i < oneMonth.length; i++) {
             $(".listCreate").append("<ul><li>" + oneMonth[i].title + "</li><li><p class='notes hideNote'>"+oneMonth[i].note+"</p></li></ul>");
 
