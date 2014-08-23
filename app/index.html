@@ -20,16 +20,47 @@
 
   </head>
   <body>
+    <div class="row">
+      <div class="col-xs-12 intro">
+    <h1> When is your big day?</h1>
+      <form>
+        <input id="wedDate" type="date" min="2014-01-01" max="2020-01-01"> <!-- until your big day! -->
+        <input type="submit" value="go">
+      </form>
+    </div>
+    </div>
+
+  <div class="container">
+    <h1 class="counter">[?] days until the big day!</h1>
+    <div class="row">
+      <div class="col-xs-6 done">Should be done...
+        <ul>
+          <li> ALL THE SHIT </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 notdone">Need to do...
+        <ul>
+          <li> ALL THE SHIT </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
 
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/template.js"></script>
+        <script src="scripts/data.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
