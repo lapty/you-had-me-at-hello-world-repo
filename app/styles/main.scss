@@ -23,9 +23,21 @@ body {
   }
 }
 
+.listCreate {
+  background-color: rgba(252, 248, 245, .4);
+  ul {
+    li {
+      list-style-type:none;
+    }
+  }
+}
+
 
 .counter {
   text-align:center;
+  span {
+    text-decoration:underline;
+  }
 }
 
 .container {
