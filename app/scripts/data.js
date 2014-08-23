@@ -1,5 +1,5 @@
-
-var sixteenNineMonths=[
+var timeLine = [
+{sixteenNineMonths:[
 
   {
     title: "Work out your budget",
@@ -38,8 +38,8 @@ var sixteenNineMonths=[
     note: "Remember that your invitees should be on your wedding guest list as well."
   },
 ]
-
-var eightMonths= [
+},
+{eightMonths:[
   {
     title:"Hire the photographer and the videographer",
     completed:false,
@@ -71,7 +71,8 @@ var eightMonths= [
     note:"Sign up at a minimum of three retailers."
   },
 ]
-var sevenSixMonths= [
+},
+{sevenSixMonths:[
   {
     title:"Select and purchase invitations",
     completed:false,
@@ -113,7 +114,8 @@ var sevenSixMonths= [
     note:"Draw up a schedule of the event and slot in each component (the cake-cutting, the first dance)."
   },
 ]
-var fiveFourMonths= [
+},
+{fiveFourMonths:[
   {
     title:"Book the rehearsal and rehearsal-dinner venues",
     completed:false,
@@ -150,7 +152,8 @@ var fiveFourMonths= [
     note:"What should be playing when the wedding party is announced? During dinner? To kick off the dancing? Keep a running list of what you want—and do not want—played."
   },
 ]
-var threeMonths=[
+},
+{threeMonths:[
   {
     title:"Finalize the menu and flowers",
     completed:false,
@@ -185,9 +188,10 @@ var threeMonths=[
     title:"Send your event schedule to the vendors",
     completed:false,
     note:"Giving them a first draft now allows ample time for tweaks and feedback."
-  },
+  }
 ]
-var twoMonths=[
+},
+{twoMonths:[
   {
     title:"Touch base again with all the vendors",
     completed:false,
@@ -207,9 +211,10 @@ var twoMonths=[
     title:"Have a bachelorette party",
     completed:false,
     note:"Arranging a night out with your girlfriends generally falls to the maid of honor. But if she hasn’t mentioned one to you by now, feel free to ask—for scheduling purposes, of course!—if a celebration is in the works."
-  },
+  }
 ]
-var oneMonth=[
+},
+{oneMonth: [
   {
     title:"Enter RSVPs into your guest-list database",
     completed:false,
@@ -271,7 +276,8 @@ var oneMonth=[
     note:"",
   },
 ]
-var weekof=[
+},
+{weekof: [
   {
     title:"Reconfirm arrival times with vendors",
     completed:false,
@@ -317,4 +323,6 @@ var weekof=[
     completed:false,
     note:"",
   },
+]
+}
 ]
