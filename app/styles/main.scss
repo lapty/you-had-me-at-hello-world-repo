@@ -5,6 +5,7 @@ $cream: #fcf8f5;
 body {
   background-color: $blue;
   font-family: 'Open Sans', Helvetica;
+  margin: 0;
 }
 .intro {
   text-align:center;
@@ -15,16 +16,16 @@ body {
     background-color: rgba(252, 248, 245, .4);
   }
   h2{
-    font-size: 22px;
+    font-size: 34px;
     color: $cream;
   }
   input{
-    border-radius: 10px;
+    border-radius: 5px;
   }
 }
 
 .listCreate {
-  background-color: rgba(252, 248, 245, .4);
+
   ul {
     li {
       list-style-type:none;
@@ -33,19 +34,41 @@ body {
 }
 
 
-.counter {
-  text-align:center;
-  span {
-    text-decoration:underline;
-  }
-}
 
 .container {
-  width:90%;
+  width:92%;
   margin:auto;
-  color: $cream;
+  color: $blue;
+  position: relative;
   h3{
-    font-size: 20px;
+    font-size: 32px;
+    padding: 4px;
+    padding-bottom: 20px;
+  }
+  .counter {
+    text-align:center;
+    span {
+      font-family: 'Pacifico', Helvetica;
+      color: $coral;
+    }
+  }
+
+}
+
+.slideUp{
+  position: absolute;
+  top: 2000px;
+  transition: all 1s ease;
+  background-color: rgb(252, 248, 245);
+}
+.slideUp2{
+  position: absolute;
+  transform: translateY(0px);
+  transition: all 1s ease;
+  top: -160px;
+  .notes{
+    background-color: red;
+    width: 80%;
   }
 }
 

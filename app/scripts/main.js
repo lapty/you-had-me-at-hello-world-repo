@@ -42,9 +42,12 @@ var home = {
         }
 
         $(".counter").append(monthCount(myDate));
+        $(".slideUp").toggleClass("slideUp2");
 
         if (monthCount(myDate) > 9 ){
+
           $(".listCreate").prepend("<h2>Between Sixteen and Nine Months Out:</h2>");
+
           for (var i = 0; i < sixteenNineMonths.length; i++) {
             $(".listCreate").append("<ul><li>" + sixteenNineMonths[i].title + "<li><span class='notes hideNote'>"+sixteenNineMonths[i].note+"</span></li></ul>");
           }
@@ -82,14 +85,14 @@ var home = {
         if (monthCount(myDate) === 1){
           $(".listCreate").prepend("<h2>One More Month, You Should:</h2>");
           for (var i = 0; i < oneMonth.length; i++) {
-            $(".listCreate").append("<ul><li>" + oneMonth[i].title + "</li><li><span class='notes hideNote'>"+oneMonth[i].note+"</span></li></ul>");
+            $(".listCreate").append("<ul><li>" + oneMonth[i].title + "</li><li><p class='notes hideNote'>"+oneMonth[i].note+"</p></li></ul>");
 
           }
         }
       });
       $(".listCreate").on("click", "li", function(event){
         console.log('here');
-        $(this).siblings().find("span").toggleClass("hideNote");
+        $(this).siblings().find("p").toggleClass("hideNote");
       });
 
 
