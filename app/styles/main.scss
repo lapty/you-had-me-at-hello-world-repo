@@ -3,13 +3,18 @@ $coral: #FF9968;
 $cream: #fcf8f5;
 
 body {
+  width: 100%;
   background-color: $blue;
   font-family: 'Open Sans', Helvetica;
   margin: 0;
 }
+
 .intro {
+  margin: auto;
   text-align:center;
+  width: 100%;
   h1{
+    width: 100%;
     font-family: 'Pacifico', Helvetica;
     font-size: 55px;
     color: $cream;
@@ -36,28 +41,17 @@ body {
 
 
 .container {
-  width:92%;
+  width:95%;
   margin:auto;
   color: $blue;
   position: relative;
-  h3{
-    font-size: 32px;
-    padding: 4px;
-    padding-bottom: 20px;
-  }
-  .counter {
-    text-align:center;
-    span {
-      font-family: 'Pacifico', Helvetica;
-      color: $coral;
-    }
-  }
 
 }
 
 .slideUp{
+  width: 100%;
   position: absolute;
-  top: 2000px;
+  top: -1000px;
   transition: all 1s ease;
   background-color: rgb(252, 248, 245);
 }
@@ -65,13 +59,36 @@ body {
   position: absolute;
   transform: translateY(0px);
   transition: all 1s ease;
-  top: -160px;
+  top: 0;
+  h3{
+    font-size: 32px;
+    padding: 4px;
+    padding-bottom: 20px;
+  }
+  .counter {
+    text-align:center;
+    h3{
+      margin: 0;
+    }
+    span {
+      font-family: 'Pacifico', Helvetica;
+      color: $coral;
+    }
+  }
   .notes{
-    background-color: red;
+    background-color: $blue;
+    color: $cream;
     width: 80%;
   }
 }
 
 .hideNote {
   display: none;
+}
+
+.footer {
+  height: 60px;
+  clear: both;
+  width: 100%;
+  display: block;
 }
