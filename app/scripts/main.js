@@ -45,32 +45,32 @@ var home = {
 
         if (monthCount(myDate) > 9 ){
           for (var i = 0; i < sixteenNineMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + sixteenNineMonths[i].title + "<span class='notes hideNote'><ul><li>"+sixteenNineMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + sixteenNineMonths[i].title + "<li><span class='notes hideNote'>"+sixteenNineMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) === 8 ){
           for (var i = 0; i < eightMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + eightMonths[i].title + "<span class='notes hideNote'><ul><li>"+eightMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + eightMonths[i].title + "<li><span class='notes hideNote'>"+eightMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) < 8 && monthCount(myDate) > 5 ){
           for (var i = 0; i < sevenSixMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + sevenSixMonths[i].title + "<span class='notes hideNote'><ul><li>"+sevenSixMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + sevenSixMonths[i].title + "<li><span class='notes hideNote'>"+sevenSixMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) < 6 && monthCount(myDate) > 3){
           for (var i = 0; i < fiveFourMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + fiveFourMonths[i].title + "<span class='notes hideNote'><ul><li>"+fiveFourMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + fiveFourMonths[i].title + "<li><span class='notes hideNote'>"+fiveFourMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) === 3){
           for (var i = 0; i < threeMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + threeMonths[i].title + "<span class='notes hideNote'>"+threeMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + threeMonths[i].title + "<li><span class='notes hideNote'>"+threeMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) === 2){
           for (var i = 0; i < twoMonths.length; i++) {
-            $(".listCreate").append("<ul><li>" + twoMonths[i].title + "<span class='notes hideNote'><ul><li>"+twoMonths[i].note+"</li></ul></span></ul></li>");
+            $(".listCreate").append("<ul><li>" + twoMonths[i].title + "<li><span class='notes hideNote'>"+twoMonths[i].note+"</span></li></ul>");
           }
         }
         if (monthCount(myDate) === 1){
