@@ -1,10 +1,32 @@
-
-
+body {
+  background-color: rgba(255, 253, 208, .7);
+  background-image:url("/images/halftone.png");
+}
 
 .intro {
   text-align:center;
+  padding:10px;
 }
 
+
+form {
+  position:relative;
+  border: 1px red solid;
+  input {
+    border-radius:8px;
+  }
+  img {
+    opacity:.7;
+  }
+}
+
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-weight:bold;
+  font-size: 4em;
+  text-shadow: 2px 1px #bdbdbd;
+}
 
 .counter {
   text-align:center;
@@ -13,9 +35,14 @@
 .container {
   width:90%;
   margin:auto;
-  border:1px red solid;
+  font-size:1em;
+  background-color: rgba(245, 255, 250, .5);
 }
 
 .done {
   border:1px red solid;
+}
+
+.hide {
+  display:none;
 }
