@@ -1,3 +1,3 @@
 var wedTmpl = [
- "<% _.each(item, function(element, index, list) { %>",
+ "<% _.each(sixteenNineMonths, function(element, index, list) { %>",
 ]

@@ -17,7 +17,7 @@ var home = {
     initEvents: function () {
       $(".intro").on("submit", function (event) {
         event.preventDefault();
-        var myDate = $("#wedDate").val();
+        var myDate = window.myDate = $("#wedDate").val();
         console.log(myDate);
 
       })
