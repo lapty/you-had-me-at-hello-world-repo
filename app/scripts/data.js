@@ -1,4 +1,4 @@
-var 16to9months=[
+var sixteenNineMonths=[
   {
     title: "Work out your budget",
     completed: false,
@@ -22,7 +22,7 @@ var 16to9months=[
   {
     title: "Book your officiant",
     completed: false,
-    note:
+    note:"",
   },
   {
     title: "Do some research",
@@ -30,12 +30,12 @@ var 16to9months=[
     note: "Research photographers, bands, florists, and caterers."
   },
   {
-    title: "Throw an engagement party"
+    title: "Throw an engagement party",
     completed:false,
     note: "Remember that your invitees should be on your wedding guest list as well."
   },
 ]
-var 8months= [
+var eightMonths= [
   {
     title:"Hire the photographer and the videographer",
     completed:false,
@@ -62,12 +62,12 @@ var 8months= [
     note:"Pick three hotels at different price points close to the reception venue."
   },
   {
-    title:"Register"
+    title:"Register",
     completed:false,
     note:"Sign up at a minimum of three retailers."
   },
 ]
-var 7to6months= [
+var sevenSixMonths= [
   {
     title:"Select and purchase invitations",
     completed:false,
@@ -91,7 +91,7 @@ var 7to6months= [
   {
     title:"Send save-the-date cards",
     completed:false,
-    note:
+    note:""
   },
   {
     title:"Book a florist",
@@ -109,7 +109,7 @@ var 7to6months= [
     note:"Draw up a schedule of the event and slot in each component (the cake-cutting, the first dance)."
   },
 ]
-var 5to4months= [
+var fiveFourMonths= [
   {
     title:"Book the rehearsal and rehearsal-dinner venues",
     completed:false,
@@ -146,7 +146,7 @@ var 5to4months= [
     note:"What should be playing when the wedding party is announced? During dinner? To kick off the dancing? Keep a running list of what you want—and do not want—played."
   },
 ]
-var 3months=[
+var threeMonths=[
   {
     title:"Finalize the menu and flowers",
     completed:false,
@@ -165,12 +165,12 @@ var 3months=[
   {
     title:"Schedule your second fitting",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Finalize the order of the ceremony and the reception",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Purchase the rings",
@@ -183,7 +183,7 @@ var 3months=[
     note:"Giving them a first draft now allows ample time for tweaks and feedback."
   },
 ]
-var 2months=[
+var twoMonths=[
   {
     title:"Touch base again with all the vendors",
     completed:false,
@@ -205,7 +205,7 @@ var 2months=[
     note:"Arranging a night out with your girlfriends generally falls to the maid of honor. But if she hasn’t mentioned one to you by now, feel free to ask—for scheduling purposes, of course!—if a celebration is in the works."
   },
 ]
-var 1month=[
+var oneMonth=[
   {
     title:"Enter RSVPs into your guest-list database",
     completed:false,
@@ -217,9 +217,9 @@ var 1month=[
     note:"The process can take up to six days, but it’s good to give yourself some leeway. If you are changing your name, order several copies."
   },
   {
-    title:"Mail the rehearsal-dinner invitations"
+    title:"Mail the rehearsal-dinner invitations",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Visit the dressmaker for (with luck!) your last dress fitting",
@@ -234,12 +234,12 @@ var 1month=[
   {
     title:"Send out as many final payments as you can",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Confirm times for hair and makeup and all vendors",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"E-mail and print directions for drivers of transport vehicles",
@@ -247,7 +247,7 @@ var 1month=[
     note:"This gives the chauffeurs ample time to navigate a route."
   },
   {
-    title:"Assign seating"
+    title:"Assign seating",
     completed:false,
     note:"Draw out table shapes on a layout of the room to help plan place settings. Write the names of female guests on pink sticky notes and the names of male guests on blue sticky notes so you can move people about without resketching the entire setting."
   },
@@ -259,19 +259,19 @@ var 1month=[
   {
     title:"Write vows",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Get your hair cut and colored",
     completed:false,
-    note:
+    note:"",
   },
 ]
 var weekof=[
   {
     title:"Reconfirm arrival times with vendors",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Delegate small wedding-day tasks",
@@ -306,11 +306,11 @@ var weekof=[
   {
     title:"Assemble and distribute the welcome baskets",
     completed:false,
-    note:
+    note:"",
   },
   {
     title:"Pack for your honeymoon",
     completed:false,
-    note:
+    note:"",
   },
 ]
