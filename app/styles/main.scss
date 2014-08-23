@@ -3,17 +3,25 @@ $coral: #FF9968;
 $cream: #fcf8f5;
 
 body {
+  width: 100%;
   background-color: $blue;
   font-family: 'Open Sans', Helvetica;
   margin: 0;
 }
+
 .intro {
+  margin: auto;
   text-align:center;
+  width: 100%;
   h1{
+    padding:15px;
+    width: 80%;
+    margin:auto;
+    margin-top:30px;
     font-family: 'Pacifico', Helvetica;
     font-size: 55px;
-    color: $cream;
-    background-color: rgba(252, 248, 245, .4);
+    color: $blue;
+    background-color: rgba(252, 248, 245, .6);
   }
   h2{
     font-size: 34px;
@@ -25,6 +33,7 @@ body {
 }
 
 .listCreate {
+  margin-left:0px;
   ul {
     li {
       list-style-type:none;
@@ -52,13 +61,14 @@ body {
       color: $coral;
     }
   }
-
 }
 
 .slideUp{
-  width:100%;
+  width: 100%;
   position: absolute;
-  top: 2000px;
+  top: -1000px;
+  width: 98%;
+  padding:12px;
   transition: all 1s ease;
   background-color: rgb(252, 248, 245);
 }
@@ -66,10 +76,30 @@ body {
   position: absolute;
   transform: translateY(0px);
   transition: all 1s ease;
-  top: -160px;
+  top: 0px;
+  width: 98%;
   border-radius:5px;
   .notes{
     color: $coral;
+  top: 0;
+  h3{
+    font-size: 32px;
+    padding: 4px;
+    padding-bottom: 20px;
+  }
+  .counter {
+    text-align:center;
+    h3{
+      margin: 0;
+    }
+    span {
+      font-family: 'Pacifico', Helvetica;
+      color: $coral;
+    }
+  }
+  .notes{
+    background-color: $blue;
+    color: $cream;
     width: 80%;
   }
 }
@@ -77,3 +107,10 @@ body {
 .hideNote {
   display: none;
 }
+
+.footer {
+  height: 60px;
+  clear: both;
+  width: 100%;
+  display: block;
+}}
