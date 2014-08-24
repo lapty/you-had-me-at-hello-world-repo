@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  background-color: #A4DDD4;
+  font-family: 'Open Sans', Helvetica;
+  margin: 0; }
+
+.intro {
+  margin: auto;
+  text-align: center;
+  width: 100%; }
+  .intro h1 {
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Pacifico', Helvetica;
+    font-size: 55px;
+    color: #A4DDD4;
+    background-color: rgba(252, 248, 245, 0.6); }
+  .intro h2 {
+    font-size: 34px;
+    color: #fcf8f5; }
+  .intro input {
+    border-radius: 5px; }
+
+.listCreate {
+  margin-left: 0px; }
+  .listCreate ul li {
+    list-style-type: none; }
+
+.container {
+  width: 95%;
+  margin: auto;
+  color: #A4DDD4;
+  position: relative; }
+  .container h3 {
+    font-size: 32px;
+    padding: 4px;
+    padding-bottom: 20px;
+    margin-bottom: 0px; }
+  .container .counter {
+    text-align: center; }
+    .container .counter span {
+      font-family: 'Pacifico', Helvetica;
+      color: #FF9968; }
+
+.slideUp {
+  width: 100%;
+  position: absolute;
+  top: -1000px;
+  width: 98%;
+  padding: 12px;
+  transition: all 1s ease;
+  background-color: #fcf8f5; }
+
+.slideUp2 {
+  position: absolute;
+  transform: translateY(0px);
+  transition: all 1s ease;
+  top: 0px;
+  width: 98%;
+  border-radius: 5px; }
+  .slideUp2 .notes {
+    color: #FF9968;
+    top: 0; }
+    .slideUp2 .notes h3 {
+      font-size: 32px;
+      padding: 4px;
+      padding-bottom: 20px; }
+    .slideUp2 .notes .counter {
+      text-align: center; }
+      .slideUp2 .notes .counter h3 {
+        margin: 0; }
+      .slideUp2 .notes .counter span {
+        font-family: 'Pacifico', Helvetica;
+        color: #FF9968; }
+    .slideUp2 .notes .notes {
+      background-color: #A4DDD4;
+      color: #fcf8f5;
+      width: 80%; }
+  .slideUp2 .hideNote {
+    display: none; }
+  .slideUp2 .footer {
+    height: 60px;
+    clear: both;
+    width: 100%;
+    display: block; }
